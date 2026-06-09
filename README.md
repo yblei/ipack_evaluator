@@ -5,7 +5,7 @@
 Packing benchmark, created as a part of the [iPack: Intuitive Bin Packing with Large Language Models](https://github.com/yblei/ipack). (Blei et al, 2026)
 
 <div align="center">
-<img src="assets/mujoco.png" width="200 em" style="padding:1em">
+<img src="assets/mujoco.png" width="250 em" style="padding:2em">
 </div>
 
 This benchmark selects a random subset of objects from the [Nvidia-HOPE](https://github.com/swtyree/hope-dataset) dataset as well as fragile objects form the HOPE-extension, recorded as a part of this project. The baselines receive a list of objects and a return a list of placements. A mujoco based **physics simulation** optionally check for packing stability. We also compute the alignment with **human packing preference** through the **C metric** (see publication for details). 
