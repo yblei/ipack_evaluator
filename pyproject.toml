@@ -25,5 +25,5 @@ dependencies = [
     "mujoco",
     "seaborn",   
     "opencv-python",
-    "python_tex_tools @ git+ssh://git@github.com/yblei/pythonTexTools.git",
+    "python_tex_tools @ git+https://github.com/yblei/python_tex_tools.git",
     ]

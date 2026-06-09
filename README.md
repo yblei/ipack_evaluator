@@ -1,5 +1,7 @@
 # iPack Evaluator
 
+[![CI](https://github.com/yblei/c_evaluator/actions/workflows/main.yml/badge.svg)](https://github.com/yblei/c_evaluator/actions/workflows/main.yml)
+
 Packing benchmark, created as a part of the [iPack: Intuitive Bin Packing with Large Language Models](https://github.com/yblei/ipack). (Blei et al, 2026)
 
 <div align="center">
@@ -11,7 +13,7 @@ This benchmark selects a random subset of objects from the [Nvidia-HOPE](https:/
 
 ## Installation
 
-Tested on Python 3.11, otherwise you'll need to install open3d from somewhere else.
+Tested on Python 3.11.
 Create a virtual environment and install the package in editable mode:
 
 ```bash
