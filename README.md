@@ -46,3 +46,7 @@ When used in academic work, please cite:
 ```bash
 Arxive citation to be added here
 ```
+
+## License
+
+Licensed under the [CC BY-NC-SA 4.0 license](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode).
