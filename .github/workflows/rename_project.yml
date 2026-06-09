@@ -39,7 +39,7 @@ jobs:
         if: steps.is_template.outputs.is_template == 'true'
         run: rm ABOUT_THIS_TEMPLATE.md
               
-      - uses: stefanzweifel/git-auto-commit-action@v4
+      - uses: stefanzweifel/git-auto-commit-action@v7
         with:
           commit_message: "Initial commit"
           push_options: --force
