@@ -1,6 +1,6 @@
-from c_evaluator.viewer.viewer_base import ViewerBase
-from c_evaluator.viewer.packing_viewer import plot_packing
-from c_evaluator.grocery_item import GroceryItem
+from ipack_evaluator.viewer.viewer_base import ViewerBase
+from ipack_evaluator.viewer.packing_viewer import plot_packing
+from ipack_evaluator.grocery_item import GroceryItem
 from typing import List
 import numpy as np
 

@@ -1,8 +1,8 @@
 import sys
 
-sys.path.append("/home/blei/BagBuddy/evaluation/c_evaluator/3d-bpp/src")
+sys.path.append("/home/blei/BagBuddy/evaluation/ipack_evaluator/3d-bpp/src")
 
-from c_evaluator.packing_eval import run_exp
+from ipack_evaluator.packing_eval import run_exp
 import numpy as np
 import open3d as o3d
 import pandas as pd
@@ -78,7 +78,7 @@ def run_wadaboa_baseline_evaluation(grocery_items, boxes, visualizer, mode: str 
     print(f"Packing completed: {len(bin_pool.compact_bins)} bins used")
 
     # Visualize and save packing results
-    output_dir = Path("/home/blei/BagBuddy/evaluation/c_evaluator/experiment_output") / f"wadaboa_{mode}_0"
+    output_dir = Path("/home/blei/BagBuddy/evaluation/ipack_evaluator/experiment_output") / f"wadaboa_{mode}_0"
     output_dir.mkdir(parents=True, exist_ok=True)
     
     # Get the dataframe for visualization and mapping

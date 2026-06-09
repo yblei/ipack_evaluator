@@ -1,6 +1,6 @@
 # iPack Evaluator
 
-[![CI](https://github.com/yblei/c_evaluator/actions/workflows/main.yml/badge.svg)](https://github.com/yblei/c_evaluator/actions/workflows/main.yml)
+[![CI](https://github.com/yblei/ipack_evaluator/actions/workflows/main.yml/badge.svg)](https://github.com/yblei/ipack_evaluator/actions/workflows/main.yml)
 
 Packing benchmark, created as a part of the [iPack: Intuitive Bin Packing with Large Language Models](https://github.com/yblei/ipack). (Blei et al, 2026)
 

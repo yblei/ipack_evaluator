@@ -3,7 +3,7 @@ import unittest
 import numpy as np
 
 import evaluate_example
-from c_evaluator.grocery_item import GroceryItem
+from ipack_evaluator.grocery_item import GroceryItem
 
 
 class TestEvaluateExample(unittest.TestCase):

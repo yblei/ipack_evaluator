@@ -5,7 +5,7 @@ import numpy as np
 import time
 from mujoco import viewer, mj_step
 import open3d as o3d
-from c_evaluator.grocery_item import GroceryItem, SimSpec
+from ipack_evaluator.grocery_item import GroceryItem, SimSpec
 from pathlib import Path
 from scipy.spatial.transform import Rotation as R
 import cv2

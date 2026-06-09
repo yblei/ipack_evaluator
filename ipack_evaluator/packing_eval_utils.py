@@ -4,7 +4,7 @@ import numpy as np
 import open3d as o3d
 from scipy.spatial.transform import Rotation
 from scipy.ndimage import binary_erosion, zoom
-from c_evaluator.grocery_item import GroceryItem
+from ipack_evaluator.grocery_item import GroceryItem
 import pandas as pd
 
 

@@ -1,21 +1,21 @@
-from c_evaluator.sim import MujocoSim, item_from_hope
+from ipack_evaluator.sim import MujocoSim, item_from_hope
 import pandas as pd
 import json
 import pickle
 import base64
-from c_evaluator.grocery_item import GroceryItem
+from ipack_evaluator.grocery_item import GroceryItem
 import numpy as np
 from pathlib import Path
-from c_evaluator.viewer.save_viewer import SaveViewer
-from c_evaluator.viewer.multi_viewer import MultiViewer
-from c_evaluator.packing_eval_utils import (
+from ipack_evaluator.viewer.save_viewer import SaveViewer
+from ipack_evaluator.viewer.multi_viewer import MultiViewer
+from ipack_evaluator.packing_eval_utils import (
     get_footprint,
     get_density,
     get_overlaps,
 )
 from dataclasses import dataclass
 from tqdm import tqdm
-from c_evaluator.import_poll_results import PollEvaluator
+from ipack_evaluator.import_poll_results import PollEvaluator
 import time
 
 # set np seed

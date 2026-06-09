@@ -6,10 +6,10 @@ from dataclasses import dataclass
 from typing import Any, Dict, List, Optional, Tuple
 
 # Ensure GOPT code and local scripts are importable
-sys.path.insert(0, '/home/blei/BagBuddy/evaluation/c_evaluator/GOPT')
+sys.path.insert(0, '/home/blei/BagBuddy/evaluation/ipack_evaluator/GOPT')
 
-# Import c_evaluator utilities
-from c_evaluator.packing_eval import run_exp
+# Import ipack_evaluator utilities
+from ipack_evaluator.packing_eval import run_exp
 import open3d as o3d
 
 import gymnasium as gym
@@ -296,7 +296,7 @@ def run_gopt_evaluation(grocery_items, boxes, visualizer, render: bool = False):
     packer = BoxPacker(
         config=_abs_config_path("../GOPT/cfg/config.yaml"),
         checkpoint=_abs_config_path(
-            "/home/blei/BagBuddy/evaluation/c_evaluator/GOPT/weights/OnlinePack-v1_10-10-10_EMS_80_random_PPO_seed5_Adam_2026.01.19-16-43-06/policy_step_best.pth"
+            "/home/blei/BagBuddy/evaluation/ipack_evaluator/GOPT/weights/OnlinePack-v1_10-10-10_EMS_80_random_PPO_seed5_Adam_2026.01.19-16-43-06/policy_step_best.pth"
         ),
         device=None,
         box_size_set=grocery_item_sizes,
@@ -352,7 +352,7 @@ def run_gopt_evaluation(grocery_items, boxes, visualizer, render: bool = False):
 
 
 if __name__ == "__main__":
-    # Run the full experiment harness using c_evaluator
+    # Run the full experiment harness using ipack_evaluator
     mode_name = "gopt"
     run_exp(
         lambda items, boxes, vis: run_gopt_evaluation(items, boxes, vis, render=False),

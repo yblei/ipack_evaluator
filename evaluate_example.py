@@ -1,4 +1,4 @@
-from c_evaluator.packing_eval import run_exp
+from ipack_evaluator.packing_eval import run_exp
 import open3d as o3d
 import numpy as np
 

@@ -1,6 +1,6 @@
 import pandas as pd
 from pathlib import Path
-from c_evaluator.utils import get_cache_dir
+from ipack_evaluator.utils import get_cache_dir
 import json
 from itertools import permutations
 import numpy as np

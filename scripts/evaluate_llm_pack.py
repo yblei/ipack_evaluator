@@ -6,8 +6,8 @@ from bagbuddy.bagbuddy.main import BagBuddy
 from bagbuddy.bagbuddy.utils import PackerSpec
 from bagbuddy.fm_wrapper import GPTWrapper, ClaudeWrapper
 
-sys.path.append("/home/blei/BagBuddy/evaluation/c_evaluator")
-from c_evaluator.packing_eval import run_exp, run_scaling_exp
+sys.path.append("/home/blei/BagBuddy/evaluation/ipack_evaluator")
+from ipack_evaluator.packing_eval import run_exp, run_scaling_exp
 
 
 def run_bb_evaluation(

@@ -2,7 +2,7 @@ from abc import ABC, abstractmethod
 import logging
 import numpy as np
 from typing import List
-from c_evaluator.grocery_item import GroceryItem
+from ipack_evaluator.grocery_item import GroceryItem
 
 
 logger = logging.getLogger(__name__)

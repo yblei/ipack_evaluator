@@ -1,8 +1,8 @@
 import sys
-sys.path.append('/home/blei/BagBuddy/evaluation/c_evaluator/3D-bin-packing')
+sys.path.append('/home/blei/BagBuddy/evaluation/ipack_evaluator/3D-bin-packing')
 
 from py3dbp import Packer, Bin, Item, Painter
-from c_evaluator.packing_eval import run_exp
+from ipack_evaluator.packing_eval import run_exp
 import numpy as np
 import open3d as o3d
 import matplotlib
@@ -68,7 +68,7 @@ def run_jerry_3dbp_evaluation(grocery_items, boxes, visualizer):
     )
     
     # Visualize and save packing results
-    output_dir = Path("/home/blei/BagBuddy/evaluation/c_evaluator/experiment_output/jerry_3dbp_0")
+    output_dir = Path("/home/blei/BagBuddy/evaluation/ipack_evaluator/experiment_output/jerry_3dbp_0")
     output_dir.mkdir(parents=True, exist_ok=True)
     
     for idx, bin_obj in enumerate(packer.bins):
