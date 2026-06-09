@@ -1,0 +1,3 @@
+[submodule "3D-bin-packing"]
+	path = 3D-bin-packing
+	url = git@github.com:jerry800416/3D-bin-packing.git

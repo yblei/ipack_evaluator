@@ -1,0 +1,13 @@
+{
+    "recommendations": [
+        "ms-python.python",
+        "streetsidesoftware.code-spell-checker",
+        "njpwerner.autodocstring",
+        "github.copilot",
+        "eamodio.gitlens",
+        "github.vscode-pull-request-github",
+        "ms-python.flake8",
+        "ms-python.autopep8",
+        "ryanluker.vscode-coverage-gutters"
+    ]
+}

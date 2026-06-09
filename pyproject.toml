@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["c_evaluator"]
+package-dir = {"" = "."}
+
+[tool.setuptools.package-data]
+"c_evaluator" = ["**/*.json", "**/*.csv", "**/*.mtl", "**/*.obj"]
+
+[tool.setuptools.exclude-package-data]
+"*" = ["cache/*", "scripts/cache/*"]
+
+[project]
+name = "c_evaluator"
+version = "0.1.0"
+
+dependencies = [
+    "numpy",
+    "scipy",
+    "open3d",
+    "pandas",
+    "tqdm",
+    "mujoco",
+    "seaborn",   
+    "opencv-python",
+    ]

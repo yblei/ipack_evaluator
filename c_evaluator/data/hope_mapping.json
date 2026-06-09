@@ -1,0 +1,134 @@
+{
+    "Apple": {
+        "alias_name": "Apples",
+        "pretty_name": "Apple"
+    },
+    "Avocado": {
+        "alias_name": "Bananas",
+        "pretty_name": "Avocado"
+    },
+    "Eggs": {
+        "alias_name": "Eggs",
+        "pretty_name": "6 eggs in a carton"
+    },
+    "Orange": {
+        "alias_name": "Apples",
+        "pretty_name": "Orange"
+    },
+    "Yogurt Cup": {
+        "alias_name": "Joghurt Cup",
+        "pretty_name": "Yogurt Cup"
+    },
+    "AlphabetSoup": {
+        "alias_name": "Canned Corn",
+        "pretty_name": "can of Alphabet Soup"
+    },
+    "ChocolatePudding": {
+        "alias_name": "Canned Corn",
+        "pretty_name": "can of Chocolate Pudding"
+    },
+    "GranolaBars": {
+        "alias_name": "Noodles in Plastic Bag",
+        "pretty_name": "Cardboard pack of Granola Bars"
+    },
+    "Mayo": {
+        "alias_name": "Energy drink can",
+        "pretty_name": "plastic bottle of Mayonaise"
+    },
+    "OrangeJuice": {
+        "alias_name": "1.5L Plastic Water Bottle",
+        "pretty_name": "Orange Juice tetra pack"
+    },
+    "Pineapple": {
+        "alias_name": "Canned Beans",
+        "pretty_name": "can of Pineapple slices"
+    },
+    "Spaghetti": {
+        "alias_name": "Noodles in Plastic Bag",
+        "pretty_name": "Spaghetti in a cardboard box"
+    },
+    "BBQSauce": {
+        "alias_name": "Energy drink can",
+        "pretty_name": "plastic bottle of BBQ Sauce"
+    },
+    "Cookies": {
+        "alias_name": "Noodles in Plastic Bag",
+        "pretty_name": "cookies in a cardboard box"
+    },
+    "GreenBeans": {
+        "alias_name": "Canned Corn",
+        "pretty_name": "can of Green Beans"
+    },
+    "Milk": {
+        "alias_name": "Canned Beans",
+        "pretty_name": "can of condensed Milk"
+    },
+    "Parmesan": {
+        "alias_name": "Canned Beans",
+        "pretty_name": "can of grated Parmesan"
+    },
+    "Popcorn": {
+        "alias_name": "Noodles in Plastic Bag",
+        "pretty_name": "Popcorn in a cardboard box"
+    },
+    "TomatoSauce": {
+        "alias_name": "Canned Beans",
+        "pretty_name": "Canned Tomato Sauce"
+    },
+    "Butter": {
+        "alias_name": "Cheese ",
+        "pretty_name": "Butter"
+    },
+    "Corn": {
+        "alias_name": "Canned Corn",
+        "pretty_name": "can of Corn"
+    },
+    "Ketchup": {
+        "alias_name": "Energy drink can",
+        "pretty_name": "bottle of Ketchup"
+    },
+    "Mushrooms": {
+        "alias_name": "Canned Beans",
+        "pretty_name": "Canned Mushrooms"
+    },
+    "Peaches": {
+        "alias_name": "Canned Beans",
+        "pretty_name": "Canned Peaches"
+    },
+    "Raisins": {
+        "alias_name": "Noodles in Plastic Bag",
+        "pretty_name": "Raisins in a cardboard box"
+    },
+    "Tuna": {
+        "alias_name": "Canned Beans",
+        "pretty_name": "canned tuna"
+    },
+    "Cherries": {
+        "alias_name": "Canned Beans",
+        "pretty_name": "Canned Cherries"
+    },
+    "CreamCheese": {
+        "alias_name": "Cheese ",
+        "pretty_name": "a pack of Cream Cheese"
+    },
+    "MacaroniAndCheese": {
+        "alias_name": "Noodles in Plastic Bag",
+        "pretty_name": "a cardboard box of Macaroni and Cheese"
+    },
+    "Mustard": {
+        "alias_name": "Energy drink can",
+        "pretty_name": "Mustard bottle"
+    },
+    "PeasAndCarrots": {
+        "alias_name": "Canned Peas",
+        "pretty_name": "a can of Peas and Carrots"
+    },
+    "SaladDressing": {
+        "alias_name": "1.5L Plastic Water Bottle",
+        "pretty_name": "Salad Dressing"
+    },
+    "Yogurt": {
+        "alias_name": "Joghurt Cup",
+        "pretty_name": "Yogurt Cup"
+    }
+}
